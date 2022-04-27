@@ -1,0 +1,114 @@
+/* color: #2196F3; */
+/* color: #000000; */
+/* color: #212121; */
+/* white color: #FFFFFF; */
+/* grey color: #757575; */
+/*  background: #2F303A; */
+/* footer color: rgba(255, 255, 255, 0.6); */
+
+:root {
+  --prymary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-color: #000000;
+  --buuton-text-color: #ffffff;
+  --main-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.logo-link {
+  color: var(--logo-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.studio {
+  color: var(--accent-color);
+}
+.studio:active {
+  color: var(--logo-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+.nav-link:active {
+  color: var(--logo-color);
+}
+.nav-item {
+  list-style: none;
+}
+
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--prymary-text-color);
+  text-decoration: none;
+}
+.mail:hover,
+.mail:focus {
+  color: var(--accent-color);
+}
+
+.mail:active {
+  color: var(--logo-color);
+}
+.phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--prymary-text-color);
+  text-decoration: none;
+}
+.hero {
+  background: var(--secondary-bg-color);
+}
+.hero-title {
+  color: var(--buuton-text-color);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.btn:focus,
+.btn:hover {
+  background: #188ce8;
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--buuton-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
