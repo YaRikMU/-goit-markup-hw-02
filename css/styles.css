@@ -16,6 +16,7 @@
   --buuton-text-color: #ffffff;
   --main-bg-color: #e5e5e5;
   --secondary-bg-color: #2f303a;
+  --our-team-bg-color: #f5f4fa;
 }
 body {
   font-family: var(--main-fotn);
@@ -161,6 +162,9 @@ body {
 }
 
 /* ==============Наша команда============= */
+.our-team {
+  background-color: var(--our-team-bg-color);
+}
 .title-list {
   font-weight: 500;
   font-size: 16px;
